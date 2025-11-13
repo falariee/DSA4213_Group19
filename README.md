@@ -51,7 +51,7 @@ Keep secrets out of VCS (use .env). Typical variables:
 - HF_TOKEN (if accessing private Hugging Face resources)
 Use python-dotenv or OS environment variables in scripts.
 
-# `(RAG.ipynb)`
+## `(RAG.ipynb)`
 Purpose
 Detailed demonstration of a retrieval-augmented generation pipeline for PubMedQA:
 - Embed contexts with BioGPT
@@ -67,7 +67,7 @@ Key functions / cells to inspect
 - BERTScore evaluation and CSV/XLSX export
 - RAGAS-style LLM evaluator (async llm_score and prompts)
 
-# `rulebased_eval`
+## `rulebased_eval`
 Purpose
 Notebooks implementing deterministic rule-based evaluation heuristics for QA outputs. Useful as baseline comparisons to learned models.
 
@@ -75,7 +75,7 @@ Files
 - rulebase_base_eval.ipynb — rule-based baseline evaluation on base model outputs
 - rulebase_ft_eval.ipynb — rule-based evaluation for fine-tuned outputs
 
-# `frontend`
+## `frontend`
 Purpose
 Minimal demo of a frontend and backend for model/QA interaction.
 
@@ -87,7 +87,7 @@ Run (example)
   ```powershell
   streamlit run app.py
   ```
-# `finetune_models`
+## `finetune_models`
 Purpose
 Notebooks demonstrating model fine-tuning strategies for biomedical QA.
 
@@ -95,7 +95,7 @@ Files
 - instruction_finetuning.ipynb — instruction-following fine-tuning experiments
 - LORA_finetuning.ipynb — parameter-efficient LoRA fine-tuning experiments
 
-# `finetuned_model_error_analysis`
+## `finetuned_model_error_analysis`
 Purpose
 Notebooks to analyze errors and failure modes for different finetuned variants.
 
@@ -104,7 +104,7 @@ Files
 - base_instruction_analysis.ipynb — instruction-tuned model analysis
 - base_lora_analysis.ipynb — LoRA-tuned model analysis
 
-# `bertscore_eval`
+## `bertscore_eval`
 Purpose
 Notebooks to compute semantic evaluation using BERTScore across model variants.
 
