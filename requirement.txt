@@ -1,0 +1,21 @@
+
+python>=3.8
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.1
+tqdm>=4.60
+pyyaml
+python-dotenv
+requests
+transformers>=4.30
+torch>=1.13   # or torch>=2.0 
+sentence-transformers
+chromadb
+datasets
+openai
+bert-score
+uvicorn
+fastapi
+pytest
+flake8
+black
