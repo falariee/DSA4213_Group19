@@ -1,7 +1,7 @@
 """
 project/
 │── app.py         # Streamlit frontend
-│── backend.py         # Your modelling logic
+│── backend.py         
 │── models/        # (optional) fine-tuned weights, config, etc.
 """
 
